@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[25]:
-
-
 # 1st method with while 
 
 n=1
@@ -17,10 +11,6 @@ while n<101:
     else:
         print (n)
     n=n+1
-
-
-# In[36]:
-
 
 # 2nd method with in range
 
@@ -41,10 +31,7 @@ for n in range(1,n+1):
 n=100
     
 
-
-
-# In[50]:
-
+# 3rd method
 
 def fizzbuzz(n):
 
